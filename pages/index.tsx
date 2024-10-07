@@ -10,6 +10,7 @@ function HomePage() {
         <h2>信息展示</h2>
         当前后端版本: {version}(请以 [] 中 Git Hash 为准)
         <br />
+        ⚠️当前推荐的漫游版本: 1.7.0 <br />
         哔哩漫游最低版本限制: {ver_min} [
         <a
           target="_blank"
