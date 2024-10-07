@@ -12,14 +12,8 @@ function HomePage() {
         当前后端版本: {version}(请以 [] 中 Git Hash 为准)
         <br />
         ⚠️当前推荐的漫游版本: 1.7.0 <br />
-        哔哩漫游最低版本限制: {ver_min} [
-        <a
-          target="_blank"
-          href="https://github.com/bili-vd-bak/biliroaming-ts-server-vercel/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6#%E9%99%90%E5%88%B6api%E8%B0%83%E7%94%A8"
-        >
-          对应版本号查询
-        </a>
-        ]<h2>功能区</h2>
+        哔哩漫游最低版本限制: {ver_min} 
+        <h2>功能区</h2>
         <a target="_blank" href="/api/server_info">
           服务器网络信息
         </a>
