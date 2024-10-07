@@ -1,6 +1,7 @@
 "use client";
 import { version, ver_min } from "../src/_config";
 
+
 function HomePage() {
   return (
     <>

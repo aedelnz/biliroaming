@@ -6,6 +6,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta charSet="utf-8" />
+          <link rel="icon" href="./assets/favicon.jpg"/>
         </Head>
         <body>
           <Main />
