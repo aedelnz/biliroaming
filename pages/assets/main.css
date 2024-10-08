@@ -38,7 +38,7 @@ a,
   }
 
 /* 容器样式 */
-.content, .content-fluid {
+.__next, .content-fluid {
   box-sizing: border-box;
   margin-right: auto;
   margin-left: auto;
@@ -49,13 +49,13 @@ a,
 }
 
 @media (min-width: 600px) {
-  .content {
+  .__next {
       width: 94%;
   }
 }
 
 @media (min-width: 1024px) {
-  .content {
+  .__next {
       width: 92%;
   }
 }
