@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <>
       <div className="content">
-        
+        <div className="content-fluid">
         <h1>BiliRoaming Service (TS)</h1>
         <h2>信息展示</h2>
         当前后端版本: {version}(请以 [] 中 Git Hash 为准)
@@ -55,6 +55,7 @@ function HomePage() {
         <h3>支持黑/白名单查询</h3>
         访问 <code>/api/users/&#123;uid&#125;</code> 即可查询
       </div>
+        </div>
     </>
   );
 }
